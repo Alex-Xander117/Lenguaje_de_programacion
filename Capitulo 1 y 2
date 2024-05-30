@@ -1,0 +1,20 @@
+/**
+Resumen del Capítulo 1: Introduction
+Este capítulo introductorio brinda una visión general de la programación concurrente y su importancia en el desarrollo de software moderno. Se abordan los siguientes temas:
+•	¿Qué es la concurrencia?: Se define la concurrencia como la capacidad de un sistema para realizar múltiples tareas simultáneamente. Esto es crucial en aplicaciones modernas que deben manejar múltiples solicitudes de  , operaciones de E/S, procesamiento de datos, etc.
+•	Beneficios de la programación concurrente: La concurrencia puede mejorar el rendimiento, la escalabilidad y la capacidad de respuesta de una aplicación al permitir el uso eficiente de los recursos de hardware disponibles.
+•	Desafíos de la programación concurrente: Aunque la concurrencia ofrece beneficios, también presenta desafíos como la complejidad, los problemas de sincronización, las condiciones de carrera, los bloqueos mutuos (deadlocks), entre otros.
+•	Modelos de concurrencia: Se describen brevemente los modelos de concurrencia basados en hilos (threading) y en eventos (event-driven).
+•	Concurrencia en Java: Java proporciona soporte integrado para la programación concurrente a través de bibliotecas y construcciones del lenguaje, como hilos (threads), monitores, bloqueos y herramientas de sincronización.
+
+Resumen del Capítulo 2: Threads
+Este capítulo se enfoca en los hilos (threads) de ejecución, que son una parte fundamental de la programación concurrente en Java. Se cubren los siguientes temas:
+•	¿Qué es un hilo?: Se define un hilo como una secuencia de instrucciones que se ejecuta dentro de un proceso. Los hilos proporcionan una forma de dividir el trabajo y aprovechar la capacidad de procesamiento de las CPU modernas.
+•	Creación y ejecución de hilos en Java: Se explican las dos formas de crear hilos en Java: extendiendo la clase Thread o implementando la interfaz Runnable. Se muestra cómo iniciar y detener hilos.
+•	Ciclo de vida de un hilo: Se describen los diferentes estados por los que puede pasar un hilo durante su ciclo de vida, como NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING y TERMINATED.
+•	Prioridades de los hilos: Se explica cómo establecer y obtener la prioridad de un hilo en Java. Las prioridades se utilizan para determinar el orden en el que los hilos tienen acceso a los recursos de la CPU.
+•	Demonios y grupos de hilos: Se introduce el concepto de hilos demonios (daemon threads) y cómo crear y administrar grupos de hilos.
+•	Interrupciones de hilos: Se detalla cómo interrumpir un hilo y cómo manejar las interrupciones de forma segura en el código.
+•	Bloqueo de hilos: Se explica cómo un hilo puede bloquearse al esperar la disponibilidad de un recurso específico, como un monitor o un bloqueo.
+
+/**
